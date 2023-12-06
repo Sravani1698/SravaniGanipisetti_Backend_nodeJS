@@ -6,7 +6,7 @@ http.createServer((req, res) =>{
 
     if(req.url ==='/'){ // home page
 
-       fs.readFile(path.join(__dirname,'Public','index.html'),(err,content)=>{
+       fs.readFile(path.join(__dirname,'public','index.html'),(err,content)=>{
 
         if (err) throw err ;
         res.writeHead(200, {'Content-Type': 'text/html'})
@@ -16,7 +16,7 @@ http.createServer((req, res) =>{
     }
 
     else if (req.url ==='/api'){
-        fs.readFile(path.join(__dirname,'Public','universityDB.json'),(err,content)=>{
+        fs.readFile(path.join(__dirname,'public','universityDB.json'),(err,content)=>{
 
             if (err) throw err ;
             res.writeHead(200, {'Content-Type': 'application/json'})
