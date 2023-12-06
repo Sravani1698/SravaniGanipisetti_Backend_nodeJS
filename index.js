@@ -19,7 +19,7 @@ http.createServer((req, res) =>{
         fs.readFile(path.join(__dirname,'public','universityDB.json'),(err,content)=>{
 
             if (err) throw err ;
-            res.writeHead(200, {'Content-Type': 'application/json'})
+           res.writeHead(200, {'Content-Type': 'application/json','Access-Control-Allow-Origin':'*'})
             res.end(content)
     
            })
