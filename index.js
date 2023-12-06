@@ -14,17 +14,7 @@ http.createServer((req, res) =>{
 
        })
     }
-   
-    else if (req.url === '/about'){
-        fs.readFile(path.join(__dirname,'Public','index.html'),(err,content)=>{
 
-            if (err) throw err ;
-            res.writeHead(200, {'Content-Type': 'text/html'})
-            res.end(content)
-    
-           })
-    
-    }
     else if (req.url ==='/api'){
         fs.readFile(path.join(__dirname,'Public','universityDB.json'),(err,content)=>{
 
