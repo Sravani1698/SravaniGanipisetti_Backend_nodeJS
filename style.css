@@ -1,0 +1,275 @@
+@media only screen and (max-width: 768px) {
+   .aboutme, #blogs,#projects{
+       display: block !important;
+   }
+   nav{
+       display: grid !important;
+   }
+   .profile{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+   }  
+   .exp{
+      display: block !important;
+   }
+   .role{
+      width: 100% !important;
+      padding: 10px;
+   }
+   .role-head{
+      font-size: 16px;
+      word-spacing: 2px;
+   }
+}
+
+@media only screen and (max-width: 500px) {
+   .box1{
+      display: block !important;
+   }
+  .trophy{
+   width: 100% !important;
+  }
+
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+     background-color:#F5F5F5;
+     word-spacing: normal;
+ }
+ /* naviagation bar styling*/
+ nav {
+     overflow: hidden;        
+     background-color: #87CEEB; 
+ }
+ 
+ nav a {
+     float: left;          
+     display: block;          
+     color:#2e475d;         
+     text-align: center;      
+     padding: 14px 16px;     
+     text-decoration: none;    
+ }
+  
+ nav a:hover {
+     color: purple;
+     transition:0.3s;
+      text-shadow: 0 0 3px;
+ }
+
+ nav a.active{
+   background-color: #1aa9c0;
+   color:#171d8e;
+ }
+ 
+ /* naviagation bar styling ends*/
+
+ /* about section */
+ .aboutme {
+   display: flex;
+   border-radius: 30px;
+}
+
+.aboutme-container{
+   /* background-color: #fff; */
+   border: 2px solid white;
+   box-shadow:5px 10px 18px #888888;
+   padding: 15px;
+   border-radius: 30px;
+   margin: 20px;
+}
+
+.profile {
+   margin-right: 20px;
+}
+
+.profile_desc {
+
+   align-items: center;
+   text-align: justify;
+ 
+}
+ /* about section */
+
+ /* education section */
+ #education{
+     border: 2px solid white;
+     box-shadow:5px 10px 18px #888888;
+     margin: 20px;
+     border-radius: 30px;
+     padding: 15px;
+ }
+ 
+ .box1{
+   display: flex;
+   flex-direction: row;
+   margin: 1%;
+ }
+
+ .graduationicon{
+   margin: auto;
+   height: 100px;
+   width: 100px;
+ }
+
+ .image{
+   width: 100%;
+   height: 100%;
+ }
+
+ .degreetext{
+	margin: auto;
+     border:2px solid #f6c8e3;
+     background-color: #f6c8e3;
+     color: #DAA520;
+	 	border-radius:5px;
+       text-align: justify;
+       padding: 10px;
+   width: 91.66%;
+
+ }
+
+
+ .intertext{
+	margin: auto;
+     border:2px solid #fbe8f2;
+     background-color: #fbe8f2;
+     color: #088F8F;
+	 	border-radius:5px;
+       text-align: justify;
+       padding: 10px;
+   width: 91.66%;
+
+ }
+ .schooltext{
+	margin: auto;
+     border:2px solid #8bbbba;
+     background-color: #8bbbba;
+     color: black;
+	 	border-radius:5px;
+       text-align: justify;
+       padding: 10px;
+   width: 91.66%;
+
+ }
+/* education section */
+
+/* projects section */
+.projects-container{
+   border: 2px solid white;
+   box-shadow:5px 10px 18px #888888;
+   padding: 15px;
+   border-radius: 30px;
+   margin: 20px;
+}
+
+ #projects {
+   display: flex;
+   justify-content: space-around;
+   
+}
+.proj {
+   padding: 2%;
+   background-color:#1ca5b8;
+   border: 2px solid #1ca5b8;
+   text-align: justify;
+   box-shadow:5px 10px 18px #888888;
+   border-radius: 5px;
+   margin: 2%;
+}
+/* projects section */
+
+/* experience section */
+.experience-container{
+   border: 2px solid white;
+   box-shadow:5px 10px 18px #888888;
+   padding: 15px;
+   border-radius: 30px;
+   margin: 20px;
+}
+ #experience{
+    border: 5px solid #B4eec1;
+    box-shadow:5px 10px 18px #888888;
+    border-radius: 10px;
+ }
+ 
+ .exp{
+    display: flex;
+	background-color:white;
+   padding: 10px;
+
+ }
+  .timeline{
+   margin-right: 5px;
+ } 
+ 
+ .role{
+    width: 60%;
+    text-align:justify;
+ }
+ /* experience section */
+
+ /* achievements section */
+ #achievements{
+   border: 2px solid white;
+   box-shadow:5px 10px 18px #888888;
+   margin: 20px;
+   border-radius: 30px;
+   padding: 15px;
+}
+
+ .trophy{
+   margin: auto;
+   height: 100px;
+   width: 100px;
+ }
+
+ .image-trophy{
+   height: 100%;
+   width: 100%;
+ }
+ .achievement{
+   margin: auto;
+   border:2px solid #8bbbba;
+   background-color: #8bbbba;
+   color: black;
+     border-radius:5px;
+     text-align: justify;
+     padding: 10px;
+ width: 91.66%;
+ }
+ /* achievements section */
+
+ /* blogs section */
+ .blogs-container{
+   border: 2px solid white;
+   box-shadow:5px 10px 18px #888888;
+   padding: 15px;
+   border-radius: 30px;
+   margin: 20px;
+}
+ #blogs {
+   display: flex;
+   justify-content: space-around;  
+ }
+ .img {
+    width: 100%;
+    height: 80%;
+ }
+ .blog {
+    border: 2px solid white;
+    text-align: center;
+    box-shadow:5px 10px 18px #888888;
+    margin: 1%;
+ }
+/* blogs section */
+
+ footer {
+   display: flex;
+   justify-content:center;
+    background-color: #99ccff;
+    border: 5px solid #99ccff;
+    height: 50px;
+    margin: 1%;
+ }
