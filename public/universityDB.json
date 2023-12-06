@@ -1,0 +1,44 @@
+{
+    "universitiesList": [
+        {
+            "country": "United States",
+            "state-province": null,
+            "web_pages": "http://www.marywood.edu",
+            "name": "Marywood University",
+            "domains": "marywood.edu",
+            "alpha_two_code": "US"
+        },
+        {
+            "country": "United States",
+            "state-province": null,
+            "web_pages": "https://monroecollege.edu/",
+            "name": "Monroe College",
+            "domains": "monroecollege.edu",
+            "alpha_two_code": "US"
+        },
+        {
+            "country": "United States",
+            "state-province": null,
+            "web_pages": "https://mountsaintvincent.edu/",
+            "name": "College of Mount Saint Vincent",
+            "domains": "mountsaintvincent.edu",
+            "alpha_two_code": "US"
+        },
+        {
+            "country": "United States",
+            "state-province": null,
+            "web_pages": "https://www.brandman.edu/",
+            "name": "Brandman University",
+            "domains": "brandman.edu",
+            "alpha_two_code": "US"
+        },
+        {
+            "country": "United States",
+            "state-province": null,
+            "web_pages": "http://www.uscga.edu/",
+            "name": "United States Coast Guard Academy",
+            "domains": "uscga.edu",
+            "alpha_two_code": "US"
+        }
+    ]
+  }
